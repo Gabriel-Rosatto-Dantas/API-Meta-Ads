@@ -8,7 +8,7 @@ __pycache__/
 .env
 venv/
 .venv/
-*.log
+meta_ads.log
 
 # Credenciais
 credenciais.json
