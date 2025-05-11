@@ -2,23 +2,23 @@
 Este projeto automatiza a extração de dados de campanhas publicitárias do Facebook Ads e o carregamento desses dados para o Google BigQuery.
 
 #### 📌 Funcionalidades Principais
-Extração de dados da API do Facebook Graph:
-Contas de anúncios
-Campanhas publicitárias
-Conjuntos de anúncios (adsets)
-Métricas de desempenho (insights)
-Processamento e transformação dos dados
-Validação de qualidade dos dados
-Carregamento automático para o Google BigQuery
-Sistema de fallback para armazenamento local em CSV
-Mecanismo de retry para requisições à API
+Extração de dados da API do Facebook Graph,
+Contas de anúncios,
+Campanhas publicitárias,
+Conjuntos de anúncios (adsets),
+Métricas de desempenho (insights),
+Processamento e transformação dos dados,
+Validação de qualidade dos dados,
+Carregamento automático para o Google BigQuery,
+Sistema de fallback para armazenamento local em CSV,
+Mecanismo de retry para requisições à API,
 Logging detalhado das operações
 
 #### ⚙️ Pré-requisitos
-Python 3.7 ou superior
-Conta no Facebook Developers com acesso à API de Marketing
-Projeto no Google Cloud Platform com BigQuery ativado
-Token de acesso válido para a API do Facebook
+Python 3.7 ou superior,
+Conta no Facebook Developers com acesso à API de Marketing,
+Projeto no Google Cloud Platform com BigQuery ativado,
+Token de acesso válido para a API do Facebook,
 Credenciais de serviço do Google Cloud
 
 #### 🛠️ Configuração
