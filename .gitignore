@@ -4,3 +4,4 @@ __pycache__/
 *.py[cod]
 venv/
 credenciais.json
+meta_ads.log
