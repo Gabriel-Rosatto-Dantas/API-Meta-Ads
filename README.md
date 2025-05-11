@@ -57,21 +57,21 @@ Execute o script principal:
 python APP.py
 ```
 #### 📊 Estrutura dos Dados
-Campanhas
-ID, nome, status, objetivo
-Datas de início e término
-Status efetivo
-Relação com a conta de anúncio
-Conjuntos de Anúncios (Adsets)
-ID, nome, status
-Orçamento diário e total
-ID da campanha relacionada
-Datas de início e término
-Métricas de Desempenho (Insights)
-Impressões, cliques, CTR
-Gasto, frequência
-Resultados e custo por resultado
-Período de data
+Campanhas,
+ID, nome, status, objetivo,
+Datas de início e término,
+Status efetivo,
+Relação com a conta de anúncio,
+Conjuntos de Anúncios (Adsets),
+ID, nome, status,
+Orçamento diário e total,
+ID da campanha relacionada,
+Datas de início e término,
+Métricas de Desempenho (Insights),
+Impressões, cliques, CTR,
+Gasto, frequência,
+Resultados e custo por resultado,
+Período de data.
 
 #### 🔧 Configurações Personalizáveis
 Edite config.py para ajustar:
