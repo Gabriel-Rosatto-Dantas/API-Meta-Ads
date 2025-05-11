@@ -201,12 +201,12 @@ def main():
     # Configurações do BigQuery
     project_id = os.getenv('GOOGLE_CLOUD_PROJECT_ID')
     dataset_id = os.getenv('BIGQUERY_DATASET_ID')
-    credentials_path = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+    credentials_path = r'C:\Users\danta\Desktop\PROJETOS\API META ADS\credenciais.json'  # Caminho específico para o arquivo de credenciais
     
     # Verifica se as variáveis de ambiente estão configuradas
-    if not all([project_id, dataset_id, credentials_path]):
+    if not all([project_id, dataset_id]):
         logging.error("Variáveis de ambiente não configuradas corretamente.")
-        logging.error("Verifique se GOOGLE_CLOUD_PROJECT_ID, BIGQUERY_DATASET_ID e GOOGLE_APPLICATION_CREDENTIALS estão definidas no arquivo .env")
+        logging.error("Verifique se GOOGLE_CLOUD_PROJECT_ID e BIGQUERY_DATASET_ID estão definidas no arquivo .env")
         return
     
     # Remove caracteres especiais e espaços do project_id e dataset_id
