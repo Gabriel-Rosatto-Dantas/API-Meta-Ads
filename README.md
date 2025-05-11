@@ -81,6 +81,7 @@ LOGGING_CONFIG: Configurações de logging
 BIGQUERY_CONFIG: Parâmetros do BigQuery
 
 #### 📂 Estrutura do Projeto
+```bash
 API-Meta-Ads/
 ├── app.py                # Script principal
 ├── config.py              # Configurações do projeto
@@ -88,3 +89,4 @@ API-Meta-Ads/
 ├── requirements.txt       # Dependências do projeto
 ├── README.md              # Este arquivo
 └── logs/                  # Diretório de logs (criado automaticamente)
+```
