@@ -1,6 +1,15 @@
-.env
-/tokens/
+# Python
 __pycache__/
 *.py[cod]
+*.pyc
+.python-version
+
+# Environment
+.env
 venv/
+.venv/
+*.log
+
+# Credenciais
 credenciais.json
+tokens/
