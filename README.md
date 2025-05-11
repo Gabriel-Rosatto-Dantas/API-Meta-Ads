@@ -1,4 +1,4 @@
-# Facebook Ads Data Pipeline to BigQuery
+# Meta Ads Pipeline de dados para BigQuery
 Este projeto automatiza a extração de dados de campanhas publicitárias do Facebook Ads e o carregamento desses dados para o Google BigQuery.
 
 #### 📌 Funcionalidades Principais
