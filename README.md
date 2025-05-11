@@ -25,8 +25,7 @@ Credenciais de serviço do Google Cloud
 Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/facebook-ads-bigquery.git
-cd facebook-ads-bigquery
+git clone [https://github.com/seu-usuario/facebook-ads-bigquery.git](https://github.com/Gabriel-Rosatto-Dantas/API-Meta-Ads/tree/main)
 ```
 Crie e ative um ambiente virtual (recomendado):
 
@@ -54,50 +53,36 @@ Configure o arquivo config.py com seus parâmetros.\
 #### 🚀 Como Executar
 Execute o script principal:
 
-bash
-python main.py
-📊 Estrutura dos Dados
+```bash
+python APP.py
+```
+#### 📊 Estrutura dos Dados
 Campanhas
 ID, nome, status, objetivo
-
 Datas de início e término
-
 Status efetivo
-
 Relação com a conta de anúncio
-
 Conjuntos de Anúncios (Adsets)
 ID, nome, status
-
 Orçamento diário e total
-
 ID da campanha relacionada
-
 Datas de início e término
-
 Métricas de Desempenho (Insights)
 Impressões, cliques, CTR
-
 Gasto, frequência
-
 Resultados e custo por resultado
-
 Período de data
 
-🔧 Configurações Personalizáveis
+#### 🔧 Configurações Personalizáveis
 Edite config.py para ajustar:
-
 DEFAULT_API_FIELDS: Campos padrão dos insights
-
 API_RETRY_CONFIG: Configurações de retry
-
 LOGGING_CONFIG: Configurações de logging
-
 BIGQUERY_CONFIG: Parâmetros do BigQuery
 
-📂 Estrutura do Projeto
-facebook-ads-bigquery/
-├── main.py                # Script principal
+#### 📂 Estrutura do Projeto
+API-Meta-Ads/
+├── app.py                # Script principal
 ├── config.py              # Configurações do projeto
 ├── .env                   # Variáveis de ambiente
 ├── requirements.txt       # Dependências do projeto
